@@ -1,0 +1,6 @@
+## latex with inkspace
+1. which latex (/Library/TeX/texbin/latex)
+2. which dvips (/Library/TeX/texbin/dvips)
+3. which pstoedit (/opt/homebrew/bin/pstoedit)
+
+gs path: (/opt/homebrew/Cellar/ghostscript/9.56.1/bin/gs)  
