@@ -69,7 +69,7 @@ module purge
 module load mpi/openmpi3-x86_64
 scl enable devtoolset-9 bash
 ```
-(not necessary) ```export CC=gcc $$ export CXX=g++ $$ export FC=gfortran $$ export F77=gfortran $$ export MPICXX=mpic++ $$ export MPIFC=mpifort $$ export MPICC=mpicc $$ export MPIRUN=mpirun```
+(not necessary) ```export CC=gcc && export CXX=g++ && export FC=gfortran && export F77=gfortran && export MPICXX=mpic++ && export MPIFC=mpifort && export MPICC=mpicc && export MPIRUN=mpirun```
 
 
 ## **INTEL compilers**
@@ -81,13 +81,13 @@ scl enable devtoolset-9 bash
 ```
 ```bash
 export CC=icc \
-$$ export CXX=icpc \
-$$ export FC=ifort \
-$$ export F77=ifort \
-$$ export MPICXX=mpiicpc \
-$$ export MPIFC=mpiifort \
-$$ export MPICC=mpiicc \
-$$ export MPIRUN=mpiexec
+&& export CXX=icpc \
+&& export FC=ifort \
+&& export F77=ifort \
+&& export MPICXX=mpiicpc \
+&& export MPIFC=mpiifort \
+&& export MPICC=mpiicc \
+&& export MPIRUN=mpiexec
 ```
 or ```export MPIRUN=/opt/software/intel/2021.2/mpi/2021.2.0/bin/mpiexec```
 
